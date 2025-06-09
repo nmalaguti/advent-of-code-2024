@@ -1,0 +1,9 @@
+[tools]
+uv = 'latest'
+
+[settings]
+python.uv_venv_auto = true
+
+[tasks.new_day]
+description = "Add a new day"
+run = "inv new-day"

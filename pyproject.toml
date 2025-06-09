@@ -1,0 +1,25 @@
+[project]
+name = "advent-of-code-2024"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "networkx>=3.4.2",
+    "sortedcontainers>=2.4.0",
+    "z3-solver>=4.15.0.0",
+    "more-itertools>=10.7.0",
+    "rich>=14.0.0",
+    "scipy>=1.15.3",
+    "cython>=3.1.1",
+    "funcy>=2.0",
+    "numba>=0.61.2",
+]
+
+[dependency-groups]
+dev = [
+    "anytree>=2.13.0",
+    "invoke>=2.2.0",
+    "ruff>=0.11.8",
+    "setuptools>=80.8.0",
+]
